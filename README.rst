@@ -14,7 +14,6 @@ Installation
 ------------
 Notre code repose sur les librairies suivantes
 
-Our code relies on the following toolboxes:
    - Normalized Cut,     https://github.com/panji1990/Ncut9
    - VLFeat,             https://www.vlfeat.org/install-matlab.html
    - L-bfgs-b,           https://github.com/stephenbeckr/L-BFGS-B-C

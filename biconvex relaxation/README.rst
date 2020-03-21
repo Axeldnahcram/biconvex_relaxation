@@ -1,26 +1,21 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SDCut Code                                                    %
-%						                                            %	
-%     P. Wang, C. Shen, A. van den Hengel.                          %
-%     						                                        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Biconvex relaxation Code
+========================
+
+    A. Marchand, Rodrigue Rillardon.
 
 License
-This software is made publicly for research use only. It may be modified and redistributed under the terms of the GNU General Public License. 
 
-Citation
-Please cite the following if you plan to use the code in your own work: 
-* A fast semidefinite approach to solving binary quadratic problems. P. Wang, C. Shen, A. van den Hengel. CVPR, 2013. 
+Ce logiciel est mis à disposition pour la recherche uniquement. Il peut être modifié et redistribué selon les termes de la GNU General Public License
 
-Tested on MATLAB R2012a.
+Tested on MATLAB R2019b.
 
-Installation Notes :
+Notice d'installation :
 
-1) Our code relies on the following toolboxes:
-   - VLFeat,             http://www.vlfeat.org/;
-   - L-bfgs-b,           http://users.eecs.northwestern.edu/~nocedal/lbfgsb.html.
+1) Notre code dépend des logiciels suivants:
+   - Normalized Cut,     https://github.com/panji1990/Ncut9
+   - VLFeat,             https://www.vlfeat.org/install-matlab.html
+   - L-bfgs-b,           https://github.com/stephenbeckr/L-BFGS-B-C
    - Min/Max selection,  http://www.mathworks.com.au/matlabcentral/fileexchange/23576-minmax-selection
-   Please install them and add the installation paths into MATLAB.
 
 2) You can now try demo_imgsegm_biased() to generate the results for biased image segmentation in our paper.
 
@@ -28,5 +23,5 @@ Installation Notes :
 
 Release notes:
 
-2013, April 23: Initial release
+2019, Mars 21: Initial release
 

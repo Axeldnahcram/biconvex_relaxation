@@ -65,6 +65,8 @@ for ii = 1 : length(options.graph_cut_methods)
             [~, x, x_real] = solve_sdcut(sparse(W), options);
         case 'bncut'
             [~, x, x_real] = solve_bncut(sparse(W), options);
+        case 'biconvex'
+            [~, x, x_real] = solve_biconvex(sparse(W), options);
         otherwise 
             error('unknown options.cut_method: %s\n', options.cut_method);
     end
