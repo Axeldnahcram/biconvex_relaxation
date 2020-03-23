@@ -30,7 +30,7 @@ Organisation
 Le fichier SDCut reprends les travaux `l'article suivant <https://arxiv.org/pdf/1304.0840.pdf/>`_. Il est réadapté pour fonctionner
 avec la dernière version disponible de MATLAB 2019_B
 
-Entrainement
+Test
 ------------
 
 On peut lancer le fichier d'exemple de segmentation en lançant la commande suivante:

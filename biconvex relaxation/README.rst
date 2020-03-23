@@ -17,11 +17,5 @@ Notice d'installation :
    - L-bfgs-b,           https://github.com/stephenbeckr/L-BFGS-B-C
    - Min/Max selection,  http://www.mathworks.com.au/matlabcentral/fileexchange/23576-minmax-selection
 
-2) You can now try demo_imgsegm_biased() to generate the results for biased image segmentation in our paper.
 
-
-
-Release notes:
-
-2019, Mars 21: Initial release
 
