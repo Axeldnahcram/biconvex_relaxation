@@ -19,9 +19,7 @@ m_cons_diag = n;
 % #cons (sparse) for same/diff 
 m_cons_same = size(same_pairs, 2); 
 m_cons_diff = size(diff_pairs, 2); 
-disp('cons same=')
-disp(m_cons_same)
-disp(m_cons_diff)
+
 
 % #cons (structural) for bias group
 m_cons_bias = 0;
@@ -47,7 +45,12 @@ end
 m = m_cons_diag + m_cons_same + m_cons_diff + m_cons_bias + m_cons_bala; 
 m_non_sparse = m_cons_bias + m_cons_bala;
 
-
+disp('cons same=')
+disp(m_cons_same)
+disp(m_cons_diff)
+disp(m_cons_bias)
+disp(m_cons_bala)
+disp(m_cons_diag)
 %% construct B and b
 B = cell(m,1);
 B_non_sparse_part = cell(m_non_sparse, 1);

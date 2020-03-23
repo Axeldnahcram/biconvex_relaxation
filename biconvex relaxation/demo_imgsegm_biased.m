@@ -54,7 +54,7 @@ options.adj_mat.calc_method = 'Ncut-PAMI';
 options.adj_mat.color_space = 'lab';
 
 %
-options.graph_cut_methods = {'bncut', 'sdcut', 'biconvex'};
+options.graph_cut_methods = {'biconvex'};
 
 
 options.sigma = 1e-2;
