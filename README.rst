@@ -1,6 +1,7 @@
 Biconvex relaxation for Semidefinite Programming
 =================================================
 
+Rodrigue Rillardon, Axel Marchand
 
 Introduction
 ------------
@@ -38,9 +39,8 @@ On peut lancer le fichier d'exemple de segmentation en lançant la commande suiv
 
         >>> run demo_imgsegm_biased.m
 
-Test
-------
-
 
 Rapport
 -------
+
+Notre rapport est disponible dans le pdf `compressed_sensing_BCR.pdf`.
