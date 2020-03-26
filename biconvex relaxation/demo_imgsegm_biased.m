@@ -133,6 +133,6 @@ options.pos_in = pos_in;
 options.neg_in = neg_in;
 
 %%
-imgsegm(im_file, options);
+imgsegm_biased(im_file, options);
 
 end
